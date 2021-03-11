@@ -1,0 +1,16 @@
+g = "Geringoso";
+
+i = 0;
+while i < 15:
+    if g[i] == "e":
+        g = g.replace("e","epe");
+        i += 3;
+    elif g[i] == "i":
+        g = g.replace("i","ipi");
+        i += 3;
+    elif g[i] == "o":
+        g = g.replace("o","opo");
+        i += 5;
+    else:
+        i += 1;
+print(g);
